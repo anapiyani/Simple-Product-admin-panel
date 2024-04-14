@@ -1,0 +1,39 @@
+.productsTable {
+    width: 100%;
+    height: 100%;
+    color: black;
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        th {
+            text-align: start;
+            padding: 10px;
+        }
+        thead {
+            &:hover {
+                background-color: rgb(238, 236, 236);
+            }
+        }
+        td {
+            padding: 10px;
+        }
+    }
+    table, th, td {
+        border: 1px solid;
+    }
+    .stock {
+        display: flex;
+        justify-content: space-between;
+    }
+    button {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .sortIcon {
+        float: right;
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+    }
+}
